@@ -1,0 +1,211 @@
+html, body {
+    background-color: #ffffff;
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+  }
+   
+  .Img {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .Durable {
+    margin-right: 750px;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #CBBBBB;
+  }
+  
+  .topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1px 65px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .About-box {
+    padding-top: 20px;
+    background-color: #CBBBBB;
+    width: 85%;
+    height: 90%;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-left: 100px;
+    font-size: 25px;
+    color: white;
+  }
+  
+  .Info-box {
+    background-color: #5B5B5B;
+    width: 65%;
+    height: auto;
+    border-radius: 50px;
+    margin: auto;
+    font-size: 15px;
+    color: white;
+  }
+  
+  .hidden-box {
+    background-color: #CBBBBB;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: black;
+  }
+  
+  .Ig-box {
+    background-color: #CBBBBB;
+    border-radius: 50px;
+    margin-top: 10px;
+    font-size: 15px;
+    color: black;
+  }
+  
+  .Num-box {
+    background-color: #CBBBBB;
+    border-radius: 50px;
+    margin-top: 10px;
+    font-size: 15px;
+    color: black;
+  }
+  
+  .nav-item {
+    margin: 5px 20px;
+    display: inline-block;
+    
+  }
+  
+  
+  .main-content {
+    margin: auto;
+    width: 65%;
+    height: auto;
+    border-radius: 50px;
+    font-size: 20px;
+    text-align: left;
+    display: flex;
+    
+  }
+  
+  .box {
+    display: inline-block;
+    vertical-align: center;
+  }
+  
+  .first-half {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .second-half {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: right;
+    color: white;
+  }
+  
+  .Contact-box {
+    padding-top: 20px;
+    background-color: #CBBBBB;
+    width: 45%;
+    height: 75%;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-left: 100px;
+    font-size: 17px;
+    color: white;
+  }
+  
+  .Contact-First-and-Last-Name{
+    background-color: #CBBBBB;
+    width: 75%;
+    height: 7%;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 75px;
+    font-size: 20px;
+    color: white;
+  }
+  
+  .Contact-Email{
+    background-color: #CBBBBB;
+    width: 75%;
+    height: 7%;
+    border-radius: 50px;
+    margin-top: -15px;
+    margin-left: 75px;
+    
+  }
+  
+  .Contact-Question{
+    background-color: #CBBBBB;
+    width: 75%;
+    height: 45%;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 75px;
+    
+  }
+  
+  .name{
+    border-color: #CBBBBB;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    font-size: 25px;
+  }
+  
+  
+  .email{
+    border-color: #CBBBBB;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    font-size: 25px;
+  }
+  
+  .question{
+    border-color: #CBBBBB;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    font-size: 25px;
+    text-combine-upright: auto;
+  }
+  
+  .Contact-Img{
+    width:350px;
+    height:500px;
+    margin-top: -850px; 
+    margin-left: 850px;
+  }
+  
+  .Return{
+    color: white;
+    font-size: 20px;
+  }
+  
+  .Hidden{
+    color: black;
+  }
+  
+  .Ig{
+    color: black;
+  }

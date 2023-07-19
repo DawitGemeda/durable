@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Service</title>
+  <link href="{{ url_for('static', filename='main.css')}}" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    {% if users|length < 1 %}
+    <h4>There are no users. Sign up today!</h4>
+    {% else %}
+
+        {% for user in users %}
+            <table class="user-list">
+                <tr>
+                    <th>Username</th>
+                    <th>Password</th>
+                </tr>
+                <tr>
+                    <th><p>{{ user['username'] }}</p></th>
+                    <th><p>{{ user['password'] }}</p></th>
+                </tr>
+            </table>
+        {% endfor %}
+    {% endif %}
+</body>
+
+</html>

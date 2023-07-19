@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Contact</title>
+  <link href="{{ url_for('static', filename='main.css')}}" rel="stylesheet" type="text/css" />
+</head>
+
+
+  
+<body>
+    <div class="topnav" style="text-align: center; padding: 10px;">
+    <a href="/">Home</a> 
+    <a href="/service">Service</a>
+    <a href="/about">About</a>
+    <a href="/signup">Signup</a>
+      </div>
+      <div class="Contact-box" style="text-align: center;">
+        <p style="margin-right: 335px;">First and Last Name</p>
+        <div class="Contact-First-and-Last-Name">
+          <input class="name" type="text">
+    
+        </div>
+        <p style="margin-right: 355px;" style="margin-top: 100px;">Personal Email</p>
+        <div class="Contact-Email">
+          <input class="email" type="text" style="text-align: auto;">
+    
+          
+        </div>
+        <p style="margin-right: 355px;">Any Questions?</p>
+        <div class="Contact-Question">
+          <input class="question" type="text">
+    
+          
+        </div>
+        
+      <img class="Contact-Img" class="Img" src="{{ url_for('static', filename='images/contact.png')}}">>
+
+</body>
+
+</html>
